@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/jozzydgr8/gr8-portfolio.git/static/css/main.1e64b689.css",
+    "main.js": "/jozzydgr8/gr8-portfolio.git/static/js/main.9ecd9db6.js",
+    "static/js/787.3b63e3cb.chunk.js": "/jozzydgr8/gr8-portfolio.git/static/js/787.3b63e3cb.chunk.js",
+    "static/media/IMAGE.png": "/jozzydgr8/gr8-portfolio.git/static/media/IMAGE.8b8ebe542674c5fd9c16.png",
+    "static/media/IMG_0045.jpeg": "/jozzydgr8/gr8-portfolio.git/static/media/IMG_0045.f81b9e0a2b9ae77ca3a4.jpeg",
+    "index.html": "/jozzydgr8/gr8-portfolio.git/index.html",
+    "main.1e64b689.css.map": "/jozzydgr8/gr8-portfolio.git/static/css/main.1e64b689.css.map",
+    "main.9ecd9db6.js.map": "/jozzydgr8/gr8-portfolio.git/static/js/main.9ecd9db6.js.map",
+    "787.3b63e3cb.chunk.js.map": "/jozzydgr8/gr8-portfolio.git/static/js/787.3b63e3cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e64b689.css",
+    "static/js/main.9ecd9db6.js"
+  ]
+}
