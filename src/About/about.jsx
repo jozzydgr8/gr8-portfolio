@@ -47,7 +47,7 @@ import { BsFolderCheck } from 'react-icons/bs'
                   {this.props.children}
                 </p>
 
-                <a href=""><button className='btn talk'>Let's talk</button></a>
+                <a href="https://wa.link/jlaiwr"><button className='btn talk'>Let's talk</button></a>
 
 
               </div>
