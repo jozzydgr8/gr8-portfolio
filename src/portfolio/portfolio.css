@@ -1,6 +1,7 @@
 .portfolio-image{
     border-radius: 20px;
-    width: 80%;
+    width: 100%;
+    min-height: 400px;
     
     
 }
@@ -10,18 +11,24 @@
     display: grid;
     justify-items: start;
     margin: 4px 0;
+    cursor: pointer;
+}
+.portfolio-button:hover{
+    background: var(--color-primary);
+    color: white;
 }
 
 .portfolio-container{
     display: grid;
     grid-template-columns: repeat(3 ,1fr);
     gap: 1.5rem;
-    color: var(--color-dark);
+    color: var(--color-primary);
 
 }
 
 .portfolio-container > article{
-    background: var(--color-primary);
+    background: rgb(241, 241, 241);
+    border: solid 1px var(--color-primary-bg);
     border-radius: 20px;
     padding: 15px;
 }

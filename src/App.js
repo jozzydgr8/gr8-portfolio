@@ -4,8 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../src/style.css';
 import Header from './Header/Header';
 import About from './About/about';
-import Experience from './Experiences/Experience';
+import Experience from './Experience/Experience';
 import Portfolio from './portfolio/Portfolio';
+import Contact from './Contact/contact';
+import Nav from './Nav/Nav';
+import Footer from './Footer/Footer';
 
 export class App extends Component {
   render() {
@@ -24,6 +27,10 @@ export class App extends Component {
 
         <Experience />
         <Portfolio />
+        <Contact />
+        <Nav />
+        <Footer />
+        
 
 
         

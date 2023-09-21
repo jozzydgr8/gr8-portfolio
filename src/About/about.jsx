@@ -10,7 +10,7 @@ import { BsFolderCheck } from 'react-icons/bs'
   render() {
     return (
       <>
-      <section>
+      <section id='About'>
         <div className="container-fluid">
              <h5>Get to know</h5>
              <h2>About me</h2>

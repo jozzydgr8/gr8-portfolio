@@ -75,5 +75,7 @@
 }
 /* =============smaller-devices======== */
 @media (max-width: 600px) {
-
+    #Header{
+        margin-top: 60px;
+    }
 }

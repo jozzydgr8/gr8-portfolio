@@ -1,23 +1,26 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './nav.css';
-import { BiHomeSmile } from 'react-icons/bi';
-import { AiOutlineUser } from 'react-icons/ai'; 
+import { AiOutlineHome } from 'react-icons/ai'
+import {FiUser} from 'react-icons/fi'
 import { AiOutlineBook} from 'react-icons/ai';
 import { BsBalloonHeart } from 'react-icons/bs';
-import { GrContact } from 'react-icons/gr';
+import { AiOutlineMessage } from 'react-icons/ai';
+import { useState } from 'react';
 
-class Nav extends Component {
-  render() {
+const Nav = () => {
+  const [activeNav, setActiveNav]= useState('#')
+  
     return (
       <nav>
-        <a href=""><AiOutlineUser /></a>
-        <a href=""><AiOutlineUser/></a>
-        <a href=""><AiOutlineBook/></a>
-        <a href=""><BsBalloonHeart/></a>
-        <a href=""><GrContact /></a>
+        <a href="#Header" onClick={()=> setActiveNav('#') } className={activeNav === '#' ? 'active' : ''}>< AiOutlineHome className='nav-icons' /></a>
+        <a href="#About" onClick={()=> setActiveNav('#About') } className={activeNav === '#About' ? 'active' : ''}><FiUser className='nav-icons' /></a>
+        <a href="#Portfolio" onClick={()=> setActiveNav('#Portfolio') } className={activeNav === '#Portfolio' ? 'active' : ''}><AiOutlineBook className='nav-icons' /></a>
+        <a href="#Experience" onClick={()=> setActiveNav('#Experience') } className={activeNav === '#Experience' ? 'active' : ''}><BsBalloonHeart className='nav-icons' /></a>
+        <a href="#Contact" onClick={()=> setActiveNav('#Contact') } className={activeNav === '#Contact' ? 'active' : ''}><AiOutlineMessage className='nav-icons'  /></a>
+        
       </nav>
     )
-  }
+  
 }
 
 export default Nav

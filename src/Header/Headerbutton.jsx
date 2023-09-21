@@ -7,7 +7,7 @@ class Headerbutton extends Component {
       
         <div className = 'header-button'>
         <a href=""><button className='btn cv'>Download CV</button></a>
-        <a href=""><button className='btn talk'>Let's talk</button></a>
+        <a href="https://wa.link/jlaiwr" target='_blank'><button className='btn talk'>Let's talk</button></a>
       </div>
       
 

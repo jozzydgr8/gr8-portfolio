@@ -1,0 +1,9 @@
+footer{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 7% 0;
+    color: var(--color-dark);
+    text-transform: capitalize;
+}
