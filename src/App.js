@@ -9,12 +9,13 @@ import Portfolio from './portfolio/Portfolio';
 import Contact from './Contact/contact';
 import Nav from './Nav/Nav';
 import Footer from './Footer/Footer';
+import 'animate.css'
 
 export class App extends Component {
   render() {
     return (
       <>
-        <Header />
+        <Header  />
 
         <About experience = "2+ years" clients= "loading..." projects="loading..." >
           I am a front end developer,

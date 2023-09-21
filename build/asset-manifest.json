@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/gr8-portfolio/static/css/main.1e64b689.css",
-    "main.js": "/gr8-portfolio/static/js/main.171f7186.js",
+    "main.css": "/gr8-portfolio/static/css/main.c6ed04b1.css",
+    "main.js": "/gr8-portfolio/static/js/main.2c393455.js",
     "static/js/787.3b63e3cb.chunk.js": "/gr8-portfolio/static/js/787.3b63e3cb.chunk.js",
+    "static/media/img4.png": "/gr8-portfolio/static/media/img4.d917e0d08758b9bf4883.png",
+    "static/media/img2.png": "/gr8-portfolio/static/media/img2.1bc6fbbe51c51a71973f.png",
     "static/media/IMAGE.png": "/gr8-portfolio/static/media/IMAGE.8b8ebe542674c5fd9c16.png",
+    "static/media/img3.webp": "/gr8-portfolio/static/media/img3.2d6fae502fa6ef28b831.webp",
     "static/media/IMG_0045.jpeg": "/gr8-portfolio/static/media/IMG_0045.f81b9e0a2b9ae77ca3a4.jpeg",
+    "static/media/img1.jpeg": "/gr8-portfolio/static/media/img1.04f5dc2979d2d7e04e72.jpeg",
     "index.html": "/gr8-portfolio/index.html",
-    "main.1e64b689.css.map": "/gr8-portfolio/static/css/main.1e64b689.css.map",
-    "main.171f7186.js.map": "/gr8-portfolio/static/js/main.171f7186.js.map",
+    "main.c6ed04b1.css.map": "/gr8-portfolio/static/css/main.c6ed04b1.css.map",
+    "main.2c393455.js.map": "/gr8-portfolio/static/js/main.2c393455.js.map",
     "787.3b63e3cb.chunk.js.map": "/gr8-portfolio/static/js/787.3b63e3cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e64b689.css",
-    "static/js/main.171f7186.js"
+    "static/css/main.c6ed04b1.css",
+    "static/js/main.2c393455.js"
   ]
 }

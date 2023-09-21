@@ -37,9 +37,39 @@ img{
 }
 .container-fluid > h5{
     color: var(--color-dark);
+
 }
 .container-fluid > h2{
     margin-bottom: 20px;
+
+
+}
+.container-fluid > h2 , .container-fluid > h5{
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+}
+
+#About{
+
+
+    animation-delay: 2s;
+}
+#Experience{
+
+    animation-delay: 5s;
+}
+#Portfolio{
+
+    animation-delay: 7s;
+}
+#Contact{
+
+    animation-delay: 10s;
+}
+
+section{
+    animation: backInLeft;
+    animation-duration: 2s;
 }
 
 
