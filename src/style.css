@@ -49,20 +49,20 @@ img{
   animation-duration: 2s;
 }
 
-#About{
+#About, #About > .container-fluid > h2, #About > .container-fluid > h5{
 
 
     animation-delay: 2s;
 }
-#Experience{
+#Experience, #Experience > .container-fluid > h2, #Experience > .container-fluid > h5{
 
     animation-delay: 5s;
 }
-#Portfolio{
+#Portfolio #Portfolio > .container-fluid > h2, #Portfolio > .container-fluid > h5{
 
     animation-delay: 7s;
 }
-#Contact{
+#Contact #Contact > .container-fluid > h2, #Contact > .container-fluid > h5{
 
     animation-delay: 10s;
 }
