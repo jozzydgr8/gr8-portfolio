@@ -51,7 +51,7 @@ class Portfolio extends Component {
         <section id='Portfolio'>
             <div className="container-fluid">
                 <h5>My recent works</h5>
-                <h2>Projects</h2>
+                <h2 className='alternate'>Projects</h2>
                 <div className="portfolio-container">
                   {
                     data.map((data) =>(

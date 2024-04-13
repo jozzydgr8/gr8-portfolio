@@ -13,7 +13,7 @@
     margin: none;
 }
 .about-image{
-    background: var(--color-primary-variant);
+    background: var(--color-primary);
     border-radius: 20px;
 }
 
@@ -30,7 +30,7 @@
 .about-grid>article{
     min-width: 150px;
     padding: 30px 0;
-    background: var(--color-primary-variant);
+    background: var(--color-primary);
     color: black;
     border-radius: 20px;
 }
@@ -39,7 +39,7 @@
     padding: 12px 0 0 0 ;
     font-weight: 300;
 }
-.about-column-two > a{
+.about-column-two > main{
     display: grid;
     justify-items: start;
 }

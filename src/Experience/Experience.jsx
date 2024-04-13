@@ -1,114 +1,61 @@
 import React, { Component } from 'react';
 import './experience.css';
-import { BsFillPatchCheckFill } from 'react-icons/bs'
+import {Progress} from 'antd';
+import cert from '../assets/certificate.jpeg'
 
 class Experience extends Component {
   render() {
     return (
       <>
       <section id='Experience'>
-        <div className="container-fluid">
+            <div className='container-fluid'>
             <h5>What skills i have</h5>
-            <h2>My Experience</h2>
+            <h2 className='alternate'>My Experience</h2>
+                <div className="container">
+                <h1>
+                    Akande Joshua
+                </h1>
+                <p>a young programmer with diverse skill set in software development,
+                loves to create visually appealing applications and write clean functional codes</p>
+                <a download={cert} href={cert} className='btn btn-outline-primary'>view certificate</a>
 
-            <div className="row">
-                <div className="col-md-6">
-                            <div className="experience-container">
-                            <h4>Frontend Development</h4>
-                            <article>
-                                <BsFillPatchCheckFill className='check-icon' />
-                                <div className='experience-details'>
-                                    <h5>HTMl</h5> 
-                                    <small>Experienced</small>
-                                </div>
-                            </article>
-
-                            <article>
-                                 <BsFillPatchCheckFill className='check-icon' />
-                                <div className='experience-details'>
-                                    <h5>CSS</h5>
-                                    <small>intermediate</small>
-                                </div>
-                            </article>
-
-                            <article>
-                                 <BsFillPatchCheckFill className='check-icon' />
-                                <div className='experience-details'>
-                                    <h5>javaScript</h5>
-                                    <small>Experienced</small>
-                                </div>
-                            </article>
-
-                            <article>
-                                 <BsFillPatchCheckFill className='check-icon' />
-                                <div className='experience-details'>
-                                    <h5>React</h5>
-                                    <small>Experienced</small>
-                                </div>
-                            </article>
-
-                            <article>
-                                 <BsFillPatchCheckFill className='check-icon' />
-                                <div className='experience-details'>
-                                    <h5>Node.js</h5>
-                                    <small>Experienced</small>
-                                </div>
-                            </article>
-
-                            <article>
-                                 <BsFillPatchCheckFill className='check-icon' />
-                                <div className='experience-details'>
-                                    <h5>git</h5>
-                                    <small>Experienced</small>
-                                </div>
-                            </article>
-
-
-
-                            <article>
-                                 <BsFillPatchCheckFill className='check-icon' />
-                                <div className='experience-details'>
-                                    <h5>API</h5>
-                                    <small>Experienced</small>
-                                </div>
-                            </article>
+                <main>
+                    <div className='skill-grid'>
+                        <div className=' skill '>
+                            html
+                            <Progress percent={90} type='line' strokeColor={'green'}/>
                         </div>
+                        <div className=' skill '>
+                            css
+                            <Progress percent={70} type='line' strokeColor={'gold'}/>
+                        </div>
+                        
+                        <div className=' skill '>
+                            JavaScript
+                            <Progress percent={90} type='line' strokeColor={'green'}/>
+                        </div>
+
+                        <div className=' skill '>
+                            React
+                            <Progress percent={93} type='line' strokeColor={'green'}/>
+                        </div>
+
+                        <div className=' skill '>
+                            NodeJs
+                            <Progress percent={70} type='line' strokeColor={'gold'}/>
+                        </div>
+
+                        <div className=' skill '>
+                            MongoDb
+                            <Progress percent={90} type='line' strokeColor={'green'}/>
+                        </div>
+                        
+                        
+                    </div>
+                </main>
                 </div>
 
-                {/* =====end of first section======= */}
-
-                {/* ======second section begins services====== */}
-                <div className="col-md-6 experience-container-service">
-                <div className="experience-container">
-                <h4>Services</h4>
-                <article>
-    
-                    <div className='experience-details'>
-                        creating visually captivating and interactive websites,
-                    </div>
-                </article>
-
-                <article>
-                    
-                    <div className='experience-details'>
-                    implementing responsive web design techniques to ensure 
-                     seamless user experiences across various devices,
-                    </div>
-                </article>
-
-                <article>
-                     
-                    <div className='experience-details'>
-                        building efficient and scalable applications
-                    </div>
-                </article>
-
-                
             </div>
-                </div>
-            </div>
-           
-        </div>
       </section>
       </>
     )

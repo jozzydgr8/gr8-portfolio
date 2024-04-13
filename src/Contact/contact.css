@@ -5,12 +5,14 @@ form > div{
 
 form > div > input, form > div > textarea {
     width: 100%;
-    border: solid 1px var(--color-primary) !important;
+    border: solid 1px var(--color-variant) !important;
     border-radius: 10px;
     padding: 2%;
 }
-form > div > input{
-    height: 50px;
+form > div > input, textarea{
+   min-height: 50px;
+    background: transparent;
+    color:white;
 }
 
 form .btn {

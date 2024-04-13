@@ -4,27 +4,31 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    background: var(--color-bg);
+   
+}
+.alternate{
+    color: var(--color-variant);
 }
 body{
     color: var(--color-primary);
+     background: #1b1c25;
 }
 html{
     scroll-behavior: smooth;
 }
 
 :root{
-    --color-bg: #ffff;
-    --color-bg-variant: #D7FBE8;
-    --color-primary: #1FAB89;
-    --color-primary-variant: #62D2A2; 
-    --color-link-icons: #9DF3C4;
+    --color-bg: #1b1c25;
+    --color-variant: #aca8a4;
+    --color-primary: white;
+    --color-primary-variant: #005abd; 
     --color-dark: rgb(27, 27, 27);
     --transition: all 400ms ease;
+    
 
 }
 a{
-    color: var(--color-primary-button);
+    color: #aca8a4;
     text-decoration: none;
 }
 img{
@@ -32,11 +36,11 @@ img{
     width: 60%;
 }
 
-.container-fluid{
+section > .container-fluid{
     padding: 7% 15%;
 }
 .container-fluid > h5{
-    color: var(--color-dark);
+    
 
 }
 .container-fluid > h2{

@@ -9,7 +9,8 @@ import Portfolio from './portfolio/Portfolio';
 import Contact from './Contact/contact';
 import Nav from './Nav/Nav';
 import Footer from './Footer/Footer';
-import 'animate.css'
+import 'animate.css';
+import { Services } from './Services/Services';
 
 export class App extends Component {
   render() {
@@ -27,6 +28,7 @@ export class App extends Component {
         </About>
 
         <Experience />
+        <Services />
         <Portfolio />
         <Contact />
         <Nav />

@@ -15,19 +15,20 @@
 
 
 .cv{
-    outline: solid 1px var(--color-primary);
+    outline: solid 1px var(--color-primary-variant);
     color: var(--color-primary-button);
 }
 .talk{
-    background: var(--color-primary);
-    color: var(--color-bg);
+    background: var(--color-primary-variant);
+    color: var(--color-primary);
 }
 /* =========buttons-style-end========== */
 
 
 /* *******image-*** */
 .my-image{
-    background: linear-gradient(var(--color-primary), transparent);
+    background: linear-gradient(var(--color-primary-variant), transparent);
+    border-bottom: none;
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     padding: 3% 1%;
@@ -43,6 +44,7 @@
     font-size: large;
 }
 .links-header{
+    color: var(--color-variant);
     position: absolute;
     left: 4.3rem;
     bottom: 25rem;
@@ -59,7 +61,8 @@
     content: "";
     width: 2px;
     height: 2rem;
-    background: var(--color-primary);
+    background: var(--color-variant);
+    
 }
 /* ===========media-query============= */
 

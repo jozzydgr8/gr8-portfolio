@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
-import Image from './IMAGE.png';
-import './about.css'
-import { FaAward } from 'react-icons/fa';
-import { FiUsers } from 'react-icons/fi';
-import { BsFolderCheck } from 'react-icons/bs'
+// import Image from './IMAGE.png';
+// import './about.css'
+// import { FaAward } from 'react-icons/fa';
+// import { FiUsers } from 'react-icons/fi';
+// import { BsFolderCheck } from 'react-icons/bs'
+// import TalkButton from '../Header/TalkButton';
 
 
  class about extends Component {
   render() {
     return (
       <>
-      <section id='About'>
+      {/* <section id='About'>
         <div className="container-fluid">
              <h5>Get to know</h5>
-             <h2>About me</h2>
+             <h2 className='alternate'>About me</h2>
 
              <div className="row">
               <div className="col-md-6">
@@ -47,13 +48,15 @@ import { BsFolderCheck } from 'react-icons/bs'
                   {this.props.children}
                 </p>
 
-                <a href="https://wa.link/jlaiwr"><button className='btn talk'>Let's talk</button></a>
+                <main>
+                <TalkButton />
+                </main>
 
 
               </div>
              </div>
         </div>
-      </section>
+      </section> */}
 
       
       </>

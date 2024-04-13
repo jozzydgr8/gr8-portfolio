@@ -1,0 +1,39 @@
+.servicewrite{
+    text-align: left;
+    /* font-size: 1.7vw; */
+}
+#service .container-fluid{
+    
+}
+.servicediv{
+    background: #252733;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 5px;
+}
+.servicegrid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+@media (max-width: 600px) {
+    .servicegrid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+.servicediv > img{
+    width: 100%;
+    border-radius: 8px;
+    padding-bottom: 20px;
+}
+.service-logo{
+    width: 8%;
+
+}
+.service-logo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.ratingservice{
+    text-align: right;
+}

@@ -21,6 +21,7 @@ import { createRef } from 'react';
         emailjs.sendForm('service_qpo12y1', 'template_epwqbwr', this.formRef.current, 'b10IXvPfknOVV2I9I')
           .then((result) => {
               console.log(result.text);
+              alert('your message has been received thanks!');
               e.target.reset();
           }, (error) => {
               console.log(error.text);
@@ -68,7 +69,7 @@ import { createRef } from 'react';
                     <textarea name="message" id="" cols="30" rows="10" placeholder='write your message' onChange={this.handleChange2} required></textarea>
                 </div>
                 
-                 <input type="submit" className='btn btn-md btn-success' />
+                 <input type="submit" className='btn btn-md btn-primary' />
                 
             </form>
             </div>
