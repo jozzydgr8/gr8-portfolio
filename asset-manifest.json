@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/gr8-portfolio/static/css/main.ebdbb7b0.css",
-    "main.js": "/gr8-portfolio/static/js/main.bef65dc5.js",
+    "main.css": "/gr8-portfolio/static/css/main.08082cec.css",
+    "main.js": "/gr8-portfolio/static/js/main.32f0d6af.js",
     "static/js/787.3b63e3cb.chunk.js": "/gr8-portfolio/static/js/787.3b63e3cb.chunk.js",
     "static/media/img4.png": "/gr8-portfolio/static/media/img4.d917e0d08758b9bf4883.png",
     "static/media/img2.png": "/gr8-portfolio/static/media/img2.1bc6fbbe51c51a71973f.png",
     "static/media/frontend.jpeg": "/gr8-portfolio/static/media/frontend.c5d5166f943e8a4a9d92.jpeg",
     "static/media/IMAGE.png": "/gr8-portfolio/static/media/IMAGE.8b8ebe542674c5fd9c16.png",
     "static/media/certificate.jpeg": "/gr8-portfolio/static/media/certificate.e05dee183a92a70dd116.jpeg",
+    "static/media/cv.pdf": "/gr8-portfolio/static/media/cv.332fe2433e5d789d5d87.pdf",
     "static/media/img3.webp": "/gr8-portfolio/static/media/img3.2d6fae502fa6ef28b831.webp",
     "static/media/IMG_0045.jpeg": "/gr8-portfolio/static/media/IMG_0045.f81b9e0a2b9ae77ca3a4.jpeg",
     "static/media/img1.jpeg": "/gr8-portfolio/static/media/img1.04f5dc2979d2d7e04e72.jpeg",
     "static/media/express.png": "/gr8-portfolio/static/media/express.69fb54cb48e8304a29ad.png",
-    "static/media/cv.pdf": "/gr8-portfolio/static/media/cv.2a269cc657332e25fa9b.pdf",
     "static/media/firebase.png": "/gr8-portfolio/static/media/firebase.4cd55a6ea117cba53b1d.png",
     "static/media/react.png": "/gr8-portfolio/static/media/react.809fed23bcdd686de66e.png",
     "static/media/physics.png": "/gr8-portfolio/static/media/physics.86c8d9eba03e29814d2a.png",
@@ -23,12 +23,12 @@
     "static/media/html-5.png": "/gr8-portfolio/static/media/html-5.cfb2ba4a6b1c3de295bc.png",
     "static/media/css-3.png": "/gr8-portfolio/static/media/css-3.4a6549b8c2b4cda8bb88.png",
     "index.html": "/gr8-portfolio/index.html",
-    "main.ebdbb7b0.css.map": "/gr8-portfolio/static/css/main.ebdbb7b0.css.map",
-    "main.bef65dc5.js.map": "/gr8-portfolio/static/js/main.bef65dc5.js.map",
+    "main.08082cec.css.map": "/gr8-portfolio/static/css/main.08082cec.css.map",
+    "main.32f0d6af.js.map": "/gr8-portfolio/static/js/main.32f0d6af.js.map",
     "787.3b63e3cb.chunk.js.map": "/gr8-portfolio/static/js/787.3b63e3cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebdbb7b0.css",
-    "static/js/main.bef65dc5.js"
+    "static/css/main.08082cec.css",
+    "static/js/main.32f0d6af.js"
   ]
 }
