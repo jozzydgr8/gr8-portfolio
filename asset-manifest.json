@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gr8-portfolio/static/css/main.08082cec.css",
+    "main.css": "/gr8-portfolio/static/css/main.150bd0ce.css",
     "main.js": "/gr8-portfolio/static/js/main.32f0d6af.js",
     "static/js/787.3b63e3cb.chunk.js": "/gr8-portfolio/static/js/787.3b63e3cb.chunk.js",
     "static/media/img4.png": "/gr8-portfolio/static/media/img4.d917e0d08758b9bf4883.png",
@@ -23,12 +23,12 @@
     "static/media/html-5.png": "/gr8-portfolio/static/media/html-5.cfb2ba4a6b1c3de295bc.png",
     "static/media/css-3.png": "/gr8-portfolio/static/media/css-3.4a6549b8c2b4cda8bb88.png",
     "index.html": "/gr8-portfolio/index.html",
-    "main.08082cec.css.map": "/gr8-portfolio/static/css/main.08082cec.css.map",
+    "main.150bd0ce.css.map": "/gr8-portfolio/static/css/main.150bd0ce.css.map",
     "main.32f0d6af.js.map": "/gr8-portfolio/static/js/main.32f0d6af.js.map",
     "787.3b63e3cb.chunk.js.map": "/gr8-portfolio/static/js/787.3b63e3cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08082cec.css",
+    "static/css/main.150bd0ce.css",
     "static/js/main.32f0d6af.js"
   ]
 }
