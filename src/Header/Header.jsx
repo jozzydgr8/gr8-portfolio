@@ -8,7 +8,9 @@ import HeaderButton from './HeaderButton';
 
 
  class Header extends Component {
+
   render() {
+    
     return (
       <>
         <section id='Header'>

@@ -48,30 +48,14 @@ section > .container-fluid{
 
 
 }
-.container-fluid > h2 , .container-fluid > h5{
-    animation: bounce; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s;
-}
-
-#About, #About > .container-fluid > h2, #About > .container-fluid > h5{
+/* .container-fluid > h2 , .container-fluid > h5{
+    animation: bounce;  referring directly to the animation's @keyframe declaration */
+  /* animation-duration: 2s; 
+} */
 
 
-    animation-delay: 2s;
-}
-#Experience, #Experience > .container-fluid > h2, #Experience > .container-fluid > h5{
-
-    animation-delay: 5s;
-}
-#Portfolio #Portfolio > .container-fluid > h2, #Portfolio > .container-fluid > h5{
-
-    animation-delay: 7s;
-}
-#Contact #Contact > .container-fluid > h2, #Contact > .container-fluid > h5{
-
-    animation-delay: 10s;
-}
-
-section{
+.sectionAnimation{
+    scroll-behavior: smooth;
     animation: backInLeft;
     animation-duration: 2s;
 }

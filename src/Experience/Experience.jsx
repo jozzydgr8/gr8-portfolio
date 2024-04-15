@@ -17,7 +17,8 @@ class Experience extends Component {
                 </h1>
                 <p>a young programmer with diverse skill set in software development,
                 loves to create visually appealing applications and write clean functional codes</p>
-                <a download={cert} href={cert} className='btn btn-outline-primary'>view certificate</a>
+                <a download={cert} href={cert} className='btn btn-primary'>view certificate</a>
+                <hr/>
 
                 <main>
                     <div className='skill-grid'>

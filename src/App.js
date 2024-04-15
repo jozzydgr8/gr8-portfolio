@@ -14,6 +14,20 @@ import { Services } from './Services/Services';
 
 export class App extends Component {
   render() {
+    const animation = ()=>{
+      var containers = document.querySelectorAll('section');
+      var windowHeight = window.innerHeight;
+      containers.forEach(container=>{
+        var containerPosition = container.getBoundingClientRect().top;
+
+        if(containerPosition < windowHeight){
+          container.classList.add('sectionAnimation')
+        }
+
+      })
+    }
+    window.addEventListener('scroll', animation);
+
     return (
       <>
         <Header  />
