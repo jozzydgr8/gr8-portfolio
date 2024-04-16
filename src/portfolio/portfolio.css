@@ -17,9 +17,10 @@
 
 .portfolio-container{
     display: grid;
-    grid-template-columns: repeat(3 ,1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
     color: var(--color-primary);
+    justify-items: center;
 
 }
 
@@ -39,7 +40,7 @@
 }
 
 /* ===========media-scree */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
     .portfolio-container{
         grid-template-columns: 1fr 1fr;
     }
@@ -49,4 +50,4 @@
     .portfolio-container{
         grid-template-columns: 1fr;
     }
-}
+} */

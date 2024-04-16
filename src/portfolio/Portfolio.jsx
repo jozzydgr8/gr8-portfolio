@@ -3,45 +3,10 @@ import IMG1 from '../assets/IMG_0045.jpeg';
 import './portfolio.css';
 import image1 from '../assets/img1.jpeg';
 import image2 from '../assets/img2.png';
-import image3 from '../assets/img3.webp';
-import image4 from '../assets/img4.png';
 
 
 
-const data =[
-  {
-      index:1,
-      title: "EIC project",
-      image: image1,
-      preview: "https://jozzydgr8.github.io/EIC-project/"
-
-  },
-
-  {
-      index:2,
-      title: "Nibi template",
-      image: image2,
-      preview: "https://jozzydgr8.github.io/nibi-foundation/"
-
-  },
-
-  {
-      index:3,
-      title: "MovieBox",
-      image: image3,
-      preview: "https://jozzydgr8.github.io/moviebox/"
-
-  },
-
-  {
-      index:4,
-      title: "Fortrez template",
-      image: image4,
-      preview: "https://jozzydgr8.github.io/fortrez/"
-
-  },
-
-]
+const data =[]
 
 
 class Portfolio extends Component {
@@ -66,6 +31,7 @@ class Portfolio extends Component {
                   }
                 </div>
                 
+                <a href="https://github.com/jozzydgr8" target='_blank'>visit my github</a>
 
                
             </div>
