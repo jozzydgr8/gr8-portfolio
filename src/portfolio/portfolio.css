@@ -1,12 +1,12 @@
 .portfolio-image{
     border-radius: 20px;
     width: 100%;
-    min-height: 400px;
+    min-height: 200px;
     
     
 }
 .portfolio-button{
-    background: var(--color-bg-variant);
+    background: var(--color-primary-variant);
     color: var(--color-primary);
     display: grid;
     justify-items: start;
@@ -25,10 +25,16 @@
 }
 
 .portfolio-container > article{
-    background: var(--color-primary-variant);
-    /* border: solid 1px var(--color-primary-bg); */
+    /* background: var(--color-primary-variant); */
+    border: solid 1px var(--color-primary-variant);
     border-radius: 20px;
+    /* padding: 15px; */
+}
+.portfolio-container > article > div{
     padding: 15px;
+}
+.portfolio-container > article > div >div{
+    text-align: left;
 }
 
 .portfolio-container > article h3{
